@@ -7,8 +7,8 @@ function Fibonacci() {
     let firstNum = 0
     let secondNum = 1
 
-    console.log(a)
-    console.log(b)
+    console.log(firstNum)
+    console.log(secondNum)
 
     setInterval(function () {
         let next = firstNum + secondNum
