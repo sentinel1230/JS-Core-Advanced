@@ -4,16 +4,16 @@
 setInterval() */
 
 function Fibonacci() {
-    let a = 0
-    let b = 1
+    let firstNum = 0
+    let secondNum = 1
 
     console.log(a)
     console.log(b)
 
     setInterval(function () {
-        let next = a + b
-        a = b
-        b = next
+        let next = firstNum + secondNum
+        firstNum = secondNum
+        secondNum = next
 
         console.log(next)
     }, 1000)
